@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolors"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".view.activity.ActivitySignup"
+    tools:showIn="@layout/activity_signup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/color_white"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/icBack"
+                            android:layout_width="@dimen/_36sdp"
+                            android:layout_height="@dimen/_36sdp"
+                            android:layout_centerVertical="true"
+                            android:padding="@dimen/_10sdp"
+                            app:tint = "@color/black"
+                            app:srcCompat="@drawable/ic_left_arrow_megento" />
+
+                        <TextView
+                            android:id="@+id/textHeader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_8sdp"
+                            android:layout_toEndOf="@id/icBack"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:text="@string/sign_up" />
+                    </RelativeLayout>
+                </androidx.appcompat.widget.Toolbar>
+                <!-- Leb Logo-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="@dimen/_81sdp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/reb_logo" />
+                </LinearLayout>
+
+                <!--input box user name password-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_35sdp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_30sdp"
+                        android:layout_marginRight="@dimen/_30sdp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etLocationPinCodeLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="false">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etLocationPinCode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:maxLength="6"
+                                android:singleLine="true"
+                                android:textColor="@color/colorMegentaText"
+                                android:textColorHint="@color/colorTextHint"
+                                tools:text="Location:(Pincode)" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etFirstNameLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="false">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etFirstName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:inputType="textCapWords"
+                                android:singleLine="true"
+                                android:textColor="@color/colorMegentaText"
+                                android:textColorHint="@color/colorTextHint"
+                                tools:text="First Name" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etLastNameLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="false">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etLastName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapWords"
+                                android:singleLine="true"
+                                android:textColor="@color/colorMegentaText"
+                                android:textColorHint="@color/colorTextHint"
+                                tools:text="Last Name" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etNumberLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="false">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etNumber"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:maxLength="10"
+                                android:textColor="@color/colorMegentaText"
+                                android:textColorHint="@color/colorTextHint"
+                                tools:text="Mobile No." />
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txtlabelGender"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="@string/select_gender"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:textColor="@color/grey_font"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="*"
+                                android:layout_marginLeft="3dp"
+                                android:textColor="@color/red"
+                               />
+                        </LinearLayout>
+
+
+                        <Spinner
+                            android:id="@+id/spinnerGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:listitem="Select Gender" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="#9C9C9C" />
+
+
+                        <CheckBox
+                            android:id="@+id/cbStore"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/do_you_have_a_store"/>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etstoreLayout"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="false">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etStore"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapCharacters"
+                                android:textColor="@color/colorMegentaText"
+                                android:textColorHint="@color/colorTextHint"
+                                tools:text="Enter your store name" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/grey_font"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="@string/select_occupation"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="*"
+                                android:layout_marginLeft="3dp"
+                                android:textColor="@color/red"
+                                />
+                        </LinearLayout>
+
+                        <Spinner
+                            android:id="@+id/spinnerOccupation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:listitem="Occupation" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="#9C9C9C" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/grey_font"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="@string/select_age_limit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="*"
+                                android:layout_marginLeft="3dp"
+                                android:textColor="@color/red"
+                                 />
+                        </LinearLayout>
+                        <Spinner
+                            android:id="@+id/spinnerAgeRange"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:listitem="Age Limit" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="#9C9C9C" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="@string/select_education"
+                                android:textColor="@color/grey_font"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="*"
+                                android:layout_marginLeft="3dp"
+                                android:textColor="@color/red"
+                                />
+                        </LinearLayout>
+                        <Spinner
+                            android:id="@+id/spinnerEducation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:listitem="Select Education" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="#9C9C9C" />
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etPasswordLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            app:passwordToggleEnabled="true">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etPassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword"
+                                android:text=""
+                                android:textColor="@color/colorMegentaText"
+                                android:textColorHint="@color/colorTextHint" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etCPasswordLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            app:passwordToggleEnabled="true">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etCPassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:inputType="textPassword"
+                                android:text=""
+                                android:textColor="@color/colorMegentaText"
+                                android:textColorHint="@color/colorTextHint" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etreffLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="false">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etrefferal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapCharacters"
+                                android:textColor="@color/colorMegentaText"
+                                android:textColorHint="@color/colorTextHint"
+                                tools:text="Referral code" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <Button
+                            android:id="@+id/btnSignup"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_marginTop="@dimen/_25sdp"
+                            style="@style/ButtonShapeBackground"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:id="@+id/textLogin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_25sdp"
+                            android:gravity="center"
+                            android:text="Login"
+                            android:textColor="@color/colorForgotText"
+                            android:textSize="@dimen/_12sdp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <!--  bottom layout with info-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_white"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textReblissInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="reBliss- An initiative of Kutumbh Care Group  "
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_10sdp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

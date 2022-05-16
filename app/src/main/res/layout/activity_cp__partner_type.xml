@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.activity.ActivityCp_PartnerType">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundcolors">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_25sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:text="@string/select_your_partner_profile_type"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_2sdp"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:id="@+id/textRetail"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_64sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    style="@style/BackgroundColor"
+                    android:padding="@dimen/_32sdp"
+                    android:layout_gravity = "center"
+                    android:background="@drawable/borderwith_dark_green_noradii"
+                    app:tint = "@color/black"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/retail"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:layout_gravity = "center"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/_14sdp"/>
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_64sdp"
+                    android:id="@+id/textAlliances"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:padding="@dimen/_32sdp"
+                    android:layout_gravity = "center"
+                     app:tint = "@color/black"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person"
+                    android:background="@drawable/borderwith_dark_green_noradii"
+                    android:textStyle="bold"
+                    style="@style/ButtonColor"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alliances"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_gravity = "center"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/_14sdp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/textReblissInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="reBLISS- An initiative of Kutumbh Care Group  "
+                android:textColor="@color/loginButtonText"
+                android:textSize="@dimen/_10sdp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+

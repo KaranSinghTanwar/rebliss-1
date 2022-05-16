@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_call_fos_pos_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_cp__partner_type.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_cp_acivity.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_cpdetails.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_daily_dsr.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_dashboard2.xml" value="0.25" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_dashboard3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_dashboard_bank.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_dashboard_super_cpdetails.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_downloadvia_link.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_earning_summary.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_edit_fos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_edit_profile_seond.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_edit_profile_third.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_edit_rbm_detail.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_employee_acivity.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_fos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_fos_doc.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_fos_doc2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_fos_my_activities_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_fosdetails.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_g_s_t_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_image_webview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_invoice_listing_acitivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_kyc.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_login_signup_chooser.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_merchant.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_my_cudel.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_my_earning.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_my_form.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_my_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_my_task.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_notification_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_notification_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_opportunity_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_opportunity_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_otp_verification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_partner_selecion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_password_setup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_payment_success.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_posdetails.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_self_assessment_questions.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_call_fos_pos_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_dashboard2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_dashboard_bank.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_dashboard_setpone.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_edit_fos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_edit_profile_second.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/content_edit_profile_third.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/fragment_dashboard_c_p_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/fragment_fos_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/webview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/work_kyc.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Downloads/rebliss_android.zip_milk/rebliss_android/app/src/main/res/layout/work_profile.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
